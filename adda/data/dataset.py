@@ -2,8 +2,8 @@ import os
 
 import numpy as np
 import tensorflow as tf
-from tensorflow.contrib.learn.python.learn.dataframe.queues.feeding_queue_runner import FeedingQueueRunner
-
+# from tensorflow.contrib.learn.python.learn.dataframe.queues.feeding_queue_runner import FeedingQueueRunner
+from tensorflow.contrib.training import FeedingQueueRunner
 
 class DatasetGroup(object):
 

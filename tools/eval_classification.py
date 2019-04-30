@@ -7,7 +7,7 @@ import click
 import numpy as np
 import tensorflow as tf
 from tqdm import tqdm
-
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) 
 import adda
 
 
